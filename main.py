@@ -40,6 +40,12 @@ def delete_password(passwords):
         print("Deleted.")
     else:
         print("Site not found.")
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+cipher = Fernet(key)
+encrypted = cipher.encrypt(password.encode()).decode()
+decrypted = cipher.decrypt(encrypted.encode()).decode()
 
 def main():
     passwords = load_passwords()

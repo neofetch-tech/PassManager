@@ -20,7 +20,7 @@ Make sure you have Python installed on your system. You can download it from [py
 
 ### Installation & Run
 1. Clone the repository to your local machine:
-   git clone [https://github.com/YOUR_USERNAME/PassManager.git](https://github.com/YOUR_USERNAME/PassManager.git)
+   git clone [https://github.com/neofetch-tech/PassManager.git](https://github.com/meofetch-tech/PassManager.git)
 2. Navigate into the project directory:
    cd PassManager
 3. Run the application:

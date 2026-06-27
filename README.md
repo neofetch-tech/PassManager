@@ -27,6 +27,7 @@ Make sure you have Python installed on your system. You can download it from [py
    python main_all_code.py
 
 🔒 Roadmap / Future Updates
+
 [Х] Implement secure AES encryption using the cryptography library (Fernet).
 
 [ ] Add a built-in strong password generator.
